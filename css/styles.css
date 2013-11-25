@@ -1,0 +1,328 @@
+/** ALL MIGHTY RESET **/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp, strike, sub, tt, var, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-family: inherit; vertical-align: baseline;}
+
+* 					{margin: 0; /* border: solid 1px red !important; */ }
+:focus 				{outline: 0;}
+html				{height: 100%}
+body 				{background: url(../img/bulb.png); height: 100%;}
+ol, ul 				{list-style: none;}
+.clear 				{clear: both;}
+a					{text-decoration: none;}
+a:hover				{text-decoration: underline;}
+.wrap				{margin: 0 auto; width: 960px;}
+
+/* @font-face ----------------------------------------------------------------------------------------------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
+
+/* HEADER --------------------------------------------------------------------------------------------------------------------------------------- */
+
+#screen-reader		{position: absolute; left: -99999px; top: -99999px;}
+
+header				{width: 100%; background-color: #0C1016; height: 40px; display: block; position: relative; z-index: 2;}
+header#home-page	{background: none !important; height: 15px !important;}
+#header-wrap		{width: 980px; margin: 0 auto; height: 0;}
+#logo 				{position: absolute; left: -99999px; top: -99999px; }
+
+
+
+/* TERTIARY NAVIGATION */
+
+nav#tertiary        {margin: 8px 10px 0 0; float: right;}
+nav#tertiary ul     {font-family: Verdana, sans-serif; font-size: 11px; text-shadow: #000000 0px 1px 2px;}
+nav#tertiary ul li  {float: left; position: relative; display: inline;}
+nav#tertiary ul li a{float: left; position: relative; display: inline; margin-left: 25px; color: #ffffff; text-decoration: none;}
+
+li#facebook a       {background: url(images/facebook-link.png) 0px 0px no-repeat; width: 56px; height: 18px; margin-top: -2px; text-indent: -99999px;}
+li#twitter a        {background: url(images/twitter-link.png) 0px 0px no-repeat; width: 56px; height: 18px; margin-top: -1px; text-indent: -99999px;}
+.sharethis          {color: #ffffff !important; text-shadow: #000000 0px 1px 2px; margin: -1px 0 0 25px;}
+
+
+.stButton {margin: 0 !important;}
+
+
+/* MAIN NAVIGATION */
+
+#menu-container     {text-align: right; width: 188px; position: absolute; z-index: 5; margin: 15px 0 0 -20px; font-family: HessGothicRoundNFBold, Helvetica, Arial, sans-serif; float: left; clear: both;}
+#menu-container a   {color: #ffffff;}
+
+#menu-container img,
+#menu-container div {display:block; margin:0; padding:0;}
+div#menu-base       {background-color:black; display: block; position: relative; padding: 0 9px; width: 170px;}
+#menu-base-gradient {background-color:black; min-height: 231px;}
+ul#menu             {background-color:black;}
+#menu > li          {border-top: 1px solid rgba(255, 255, 255, 0.25); border-bottom: 1px solid rgba(0, 0, 0, 0.25);}
+#menu > li > a      {background: none; display: block; font-size: 14px; font-weight: bold; padding: 10px 15px; -webkit-text-shadow: rgba(0, 0, 0, .5) 0 1px 1px; -moz-text-shadow: rgba(0, 0, 0, 0.5) 0 1px 1px; text-shadow: rgba(0, 0, 0, 0.5) 0 1px 1px; -webkit-transition: background-color .5s linear; -moz-transition: background-color .5s linear; transition: background-color .5s linear; color: #ffffff; text-decoration: none;}
+#menu > li > a:hover{background-color: rgba(255, 255, 200, 0.25); -webkit-transition: background-color .15s linear; -moz-transition: background-color .15s linear; transition: background-color .15s linear;}
+
+#menu li ul li a    {background: none; display: block; font-size: 12px; padding: 7px 15px; -webkit-transition: background-color .5s linear; -moz-transition: background-color .5s linear; transition: background-color .5s linear;}
+#menu li ul li a:hover{background-color: rgba(255, 255, 200, 0.25); color: rgb(255,255,200);}
+
+.sub-menu           {font-size: 12px; font-family: Verdana, sans-serif;}
+
+/* HERE */
+
+#menu a.here                    {background-color:rgba(255, 255, 200, 0.25);}
+
+.sub-menu .current_page_item    {background-color:rgba(255, 255, 200, 0.25);}
+
+
+/* BODY ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+#page-wrap          {width: 980px; margin: 0 auto -74px; min-height: 100%; height: auto !important; height: 100%;}
+
+
+
+/* INSIDE PAGES ----------------------------------------------------------------------------------------------------------------------------------- */
+
+/* UNIVERSALS -------------- */
+
+#content        {background: url(images/bg/content-bg.jpg) no-repeat bottom #ffffff; min-height: 700px; width: 960px; margin: -7px auto 13px auto; position: relative; z-index: 0;}
+
+#page-header    {background-color: #c6ad99; height: 273px; margin-bottom: 50px; border-bottom: 10px solid #fbb033; float: left;}
+#page-header img{margin: 0; position: relative; float: left;}
+
+/* MAIN CONTENT */
+
+#main-content       {/*background-color: red;*/ width: 480px; margin: -15px 0 110px 180px; float: left;}
+#main-content h2    {font-size: 40px; color: #f28c27; letter-spacing: 1px; margin-bottom: 20px; font-family: HessGothicRoundNFRegular, Helvetica, Arial, sans-serif;}
+#main-content h3    {font-size: 30px; color: #f28c27; line-height: 21px; color: #444444; font-weight: bold; margin-bottom: 20px; font-family: Verdana, sans-serif;}
+#main-content p     {font-size: 12px; line-height: 18px; color: #222222; margin-bottom: 20px; font-family: Verdana, sans-serif;}
+#main-content a     {color: #55a51c;}
+
+/* MAIN CONTENT MENU */
+
+#main-content-menu      {/*background-color: red;*/ width: 750px; margin: -25px 0 130px 187px; float: left;}
+#main-content-menu h2   {font-size: 40px; color: #f28c27; letter-spacing: 1px; margin-bottom: 20px; font-family: HessGothicRoundNFRegular, Helvetica, Arial, sans-serif;}
+#main-content-menu h3   {font-size: 25px; color: #f28c27; line-height: 21px; color: #444444; font-weight: bold; margin-bottom: 20px; font-family: Verdana, sans-serif;}
+#main-content-menu p    {font-size: 12px; line-height: 18px; color: #222222; margin-bottom: 20px; font-family: Verdana, sans-serif;}
+
+
+
+/* MENU PAGE -------------- */
+
+#menu-list          {margin: 10px 0 0 0; float: left;}
+#menu-list li       {float: left; position: relative; display: inline;}
+#menu-list li a     {background: 0px 0px no-repeat; width: 238px; height: auto; margin: 0 12px 55px 0; padding: 148px 0 0 0; text-align: center; float: left; position: relative; display: inline; text-decoration: none; font-family: Verdana, sans-serif; font-size: 13px; color: #333333;}
+
+#menu-list li img   {margin: -140px 0 0 9px; float: left;}
+
+
+
+
+
+/* FOOTER ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+.push				{height: 74px;}
+footer				{width: 100%; background-color:#0C1016; height: 74px; display: block;}
+#footer-wrap		{width: 980px; margin: 0 auto; text-align: center}
+
+/* FOOTER NAVIGATION */
+
+nav#footer-nav			{margin: 8px 0 0 10px; width: 980px; float: left;}
+nav#footer-nav ul		{font-family: Verdana, sans-serif; font-size: 11px; text-shadow: #000000 0px 1px 2px;}
+nav#footer-nav ul li	{float: left; position: relative; display: inline;}
+nav#footer-nav ul li a	{float: left; position: relative; display: inline; margin-right: 20px; color: #ffffff; text-decoration: none;}
+
+/* FOOTER SECONDARY NAVIGATION */
+
+nav#footer-secondary-nav			{margin: 8px 0 0 10px; width: 980px; float: left;}
+nav#footer-secondary-nav ul			{color: #ffffff; font-family: Verdana, sans-serif; font-size: 11px; text-shadow: #000000 0px 1px 2px;}
+nav#footer-secondary-nav ul li		{float: left; position: relative; display: inline;}
+nav#footer-secondary-nav ul li a	{float: left; position: relative; display: inline; margin-right: 20px; color: #ffffff; text-decoration: none;}
+
+
+
+.infoCenter{
+    margin: 0 auto; width: 960px;
+}
+
+.first{
+    display: inline-block;
+   
+    border: 3px solid #000;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    background-color:black;
+
+}
+
+.topSpace {
+    margin-top:50px;
+    padding-top: 60px;
+    -moz-border-radius: 250px/250px;
+    -webkit-border-radius: 250px 250px;
+    border-radius: 250px/250px;;
+    border:solid 10px white; 
+    width:250px;
+    height:250px; 
+}
+
+.diagonal1{
+    margin-left: 400px;
+    padding-top: 60px;
+    -moz-border-radius: 200px/200px;
+    -webkit-border-radius: 200px 200px;
+    border-radius: 200px/200px;;
+    border:solid 10px brown; 
+    width:200px;
+    height:200px; 
+    background-color:yellow;
+
+
+}
+
+.mottoColor{
+    color:purple;
+    font-size: 150%;
+    margin-top:-20px;
+}
+
+.diagonal2{
+    margin-top:-100px;
+    padding-top: 30px;
+    -moz-border-radius: 200px/200px;
+    -webkit-border-radius: 200px 200px;
+    border-radius: 200px/200px;;
+    border:solid 10px white; 
+    width:200px;
+    height:200px; 
+}
+
+
+.figure-container 
+{
+    border: 7px solid #000;
+    position: relative;  
+    display: inline-block;
+}
+
+.figure-label
+{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+   font-style:italic;
+}
+
+/*This set the font to italic */
+dl dd{
+    font-style: italic;
+    clear:both;
+    color:white;
+    font-family: 'Luckiest Guy', sans-serif;
+}
+
+/*This adjusted the size and spacing */
+dl dt{
+    color:white;
+    font-size: 200%;
+    margin-top: 10px;
+    margin-bottom:10px;
+    font-family: 'Luckiest Guy', sans-serif;
+}
+
+ul li{
+    color: white;
+    margin-right: 10px;
+}
+
+ul li a{
+    color:white;
+}
+
+.template{
+    display:none;
+}
+
+.prices, .price{
+    color:red;
+}
+
+.spaceHolder{
+    width:960px;
+    height:325px;
+    display:none;
+}
+
+@media screen and (max-width: 767px) {
+
+    #page-header{
+        display:none;
+    }
+    .spaceHolder{
+        display:block;
+    }
+
+    #content{
+        margin-top: 100px;
+    }
+
+    .topNav{
+        display:none;
+    }
+
+    .infoCenter{
+        width:100%;
+        margin-left: 150px;
+    }
+
+    p, ul, dl dd, {
+        font-size:150%;
+    }
+
+    dl dt, h2, h3{
+        font-size: 180%;
+    }
+
+    #main-content{
+        width:100%;
+    }
+
+    #header-wrap{
+        width:100%;
+    }
+
+    .wrap{
+        width:100%;
+    }
+    
+    #content{
+        width: inherit;
+        height: inherit;
+        margin:0 auto; position:relative;
+        padding: 0;
+        width:100%;
+
+    }
+
+    #page-wrap {
+        width:100%;
+    }
+
+    .topImage{
+        display:none;
+    }
+    
+    #main-content-menu {
+        width: 100%;
+        margin:auto; 
+        position:relative;
+        padding: 0;
+    } 
+}
+
+.price2 {
+    float:right;
+    color: #E82B1F;
+    margin-top:-20px;   
+    clear:both;
+}
+

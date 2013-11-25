@@ -1,0 +1,80 @@
+<!doctype html>  
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+	
+	<!--#include virtual="inc/head.html" -->
+			
+</head>
+<body>
+	
+	<header>
+		<div id="header-wrap">
+		
+			<!--#include virtual="inc/header.html" -->
+
+		</div> <!-- End header-wrap -->
+	</header>
+	
+	<div id="page-wrap">
+		
+		
+		
+		<div class = "row infoCenter">
+			<div class = "col-md-2"></div>
+			<div class = "col-md-10 first">
+				<dl class = "topSpace">
+					<dt>Business Hours</dt>
+					<dd>10:00am to 11:00pm </dd>
+					<dd>Monday through Saturday</dd>
+				</dl>
+
+				<dl class = "topSpace diagonal1">
+					<dt class = "mottoColor">Grab a pizza to <br> brighten up your day!</dt>
+				</dl>
+
+				<dl class = "topSpace diagonal2">
+					<dt>Location</dt>
+					<dd> <a href="https://maps.google.com/maps?q=4306+University+Way+NE,+Seattle,+WA+98105&ie=UTF-8&hq=&hnear=0x5490148b39e7e851:0x47f43ebdd6cf2dfe,4306+University+Way+NE,+Seattle,+WA+98105&gl=us&ei=ZgNVUqTFBITVigLVj4CQBg&ved=0CDAQ8gEwAA">4306 University Way NE, <br> Seattle, WA 98105</a></dd>
+				</dl>
+			</div>	
+			
+		</div>		
+	
+						
+		<div class="clear"></div> <!-- End clear -->
+		<div class="push"></div> <!-- End push -->	
+	</div> <!-- End page-wrap -->
+	
+	<footer>
+		<div id="footer-wrap">
+			<!--#include virtual="inc/footer.html" -->
+		</div> <!-- End footer-wrap -->
+	</footer>
+		
+	<!-- Footer Scripts -->	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+  	<script>!window.jQuery && document.write(unescape('%3Cscript src="http://www.naturestable.com/wp-content/themes/NaturesTable/js/libs/jquery-1.4.4.min.js"%3E%3C/script%3E'))</script>
+	<script src="http://www.naturestable.com/wp-content/themes/NaturesTable/js/load.js" type="text/javascript" charset="utf-8"></script>	
+	<script src="http://www.naturestable.com/wp-content/themes/NaturesTable/js/jquery.lightbox_me.js" type="text/javascript" charset="utf-8"></script>
+	
+		
+	<!-- CA -->
+	<script type="text/javascript">
+	var clicky_site_id = 66416484;
+	(function() {
+	  var s = document.createElement('script');
+	  s.type = 'text/javascript';
+	  s.async = true;
+	  s.src = '//static.getclicky.com/js';
+	  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+	})();
+	</script>
+	   
+			
+	<!-- 25 queries. 0.386 seconds. -->
+</body>
+</html>

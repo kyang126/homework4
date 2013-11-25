@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<!--#include virtual="inc/head.html" -->
+	</head>
+
+	<body>
+		<div id="screen-reader"><a href="#main">skip to navigation</a><br /><a href="#content">skip to content</a></div> <!--End screen-reader-->
+	
+	<header>
+		<div id="header-wrap">
+			<!--#include virtual="inc/header.html" -->
+		</div>
+	</header>
+	
+	<div id="page-wrap">
+						
+		<div id="content">
+			<div id="page-header"><img src="http://www.naturestable.com/wp-content/header-images/menu-header.jpg" alt="Menu" title="Menu" /></div> <!-- End page-header -->
+			<div class="spaceHolder"></div>
+			<div class="clear"></div> <!-- End clear -->
+		
+			<div id="main-content-menu">
+			
+			<h2 class="title3">Drinks</h2>	 
+            <div class="drinksMenu"></div>
+            <div class="template drinks">
+                <div class="details">
+                   <h3 class="title3"><span class="name"></span></h3>
+                    <p class= "price2">$<span class="price"></span></p>
+                </div>
+            </div>
+
+          			
+				
+			</div> <!-- End main-content-menu -->
+			
+			<div class="clear"></div> <!-- End clear -->
+		</div> <!-- End content -->
+						
+		<div class="clear"></div> <!-- End clear -->
+		<div class="push"></div> <!-- End push -->	
+	</div> <!-- End page-wrap -->
+	
+		
+
+			
+
+			
+
+	<footer>
+		<div id="footer-wrap">
+			<!--#include virtual="inc/footer.html" -->
+		</div> <!-- End footer-wrap -->
+	</footer>
+		
+	<!-- Footer Scripts -->	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+  	<script>!window.jQuery && document.write(unescape('%3Cscript src="http://www.naturestable.com/wp-content/themes/NaturesTable/js/libs/jquery-1.4.4.min.js"%3E%3C/script%3E'))</script>
+	<script src="http://www.naturestable.com/wp-content/themes/NaturesTable/js/load.js" type="text/javascript" charset="utf-8"></script>	
+	<script src="http://www.naturestable.com/wp-content/themes/NaturesTable/js/jquery.lightbox_me.js" type="text/javascript" charset="utf-8"></script>
+	
+		
+	<!-- CA -->
+	<script type="text/javascript">
+	var clicky_site_id = 66416484;
+	(function() {
+	  var s = document.createElement('script');
+	  s.type = 'text/javascript';
+	  s.async = true;
+	  s.src = '//static.getclicky.com/js';
+	  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+	})();
+	</script>
+			
+
+		 <!-- hot links to Bootstrap JavaScript and jQuery (required by Bootstrap) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+        <script src="http://www.dawgpizza.com/orders/menu.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/menuItems.js"></script>
+   
+
+	</body>
+</html>
